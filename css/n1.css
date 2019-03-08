@@ -1,9 +1,8 @@
 #menu ul
 {
 	list-style: none;
-	padding-right: 50px;
-
-	margin: 0px;
+	padding-right: 120px;
+     margin: 0px;
 }
 #menu ul li
 {
@@ -24,6 +23,7 @@
 {
 	text-decoration: none;
 	display: block;
+	color: brown;
 
 
 }
@@ -36,14 +36,14 @@
 {   
 	padding-left: 100px;
 	margin:0px;
-	padding: 0px;
-	background-color: silver;
+	padding: 0px; 
 
 }
 #menu ul ul
 {
 	position: absolute;
 	display: none;
+	margin-left: : 110px;
 
 }
 #menu ul li:hover > ul
@@ -53,6 +53,7 @@
 #menu ul ul ul
 {
 	top: 50px;
+	margin-left:  120px;
 
 }
 h1
@@ -73,4 +74,8 @@ h1
 	text-align: center;
 	border-top-style: dashed;
 
+}
+#menu ul ul ul ul
+{
+	margin-left:120px; 
 }

@@ -15,6 +15,7 @@
 	float: left;
 	position: relative;
 	border-radius: 10px;
+	margin-top: 0px;
 
 	color: navy;
 
@@ -23,7 +24,7 @@
 {
 	text-decoration: none;
 	display: block;
-	color: brown;
+	color: white;
 
 
 }
@@ -44,6 +45,7 @@
 	position: absolute;
 	display: none;
 	margin-left: : 110px;
+	margin-top: 0px;
 
 }
 #menu ul li:hover > ul
@@ -52,7 +54,7 @@
 }
 #menu ul ul ul
 {
-	top: 50px;
+	margin-top: 0px;
 	margin-left:  120px;
 
 }
@@ -65,9 +67,9 @@ h1
     background-color: 	black;
 	column-span: 10px;
 	column-gap: 1000px;
-	border: 10px dotted navy;
+	border: 10px dotted yellow;
      font-weight: bolder;
-	text-shadow: 6px 0px 4px white;
+	text-shadow: 7px 0px 5px white;
 	border-radius: 100px;
     color: red;
 	font-size: 100px;
@@ -78,4 +80,8 @@ h1
 #menu ul ul ul ul
 {
 	margin-left:120px; 
+}
+*
+{
+	margin: 0px;
 }

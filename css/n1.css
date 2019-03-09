@@ -2,7 +2,7 @@
 {
 	list-style: none;
 	padding-right: 120px;
-     margin: 0px;
+     margin-top: : 0px;
 }
 #menu ul li
 {
@@ -44,7 +44,7 @@
 {
 	position: absolute;
 	display: none;
-	margin-left: : 110px;
+	margin-left: : 120px;
 	margin-top: 0px;
 
 }
@@ -84,4 +84,27 @@ h1
 *
 {
 	margin: 0px;
+}
+*
+{
+	box-sizing: border-box;
+}
+
+.container input
+{
+	padding: 20px;
+	border:2px solid black;
+	float: left;
+	width: 80%;
+	background:navy;
+}
+
+.container button
+{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background:brown;
+	color: white;
+	border:1px solid black;
 }

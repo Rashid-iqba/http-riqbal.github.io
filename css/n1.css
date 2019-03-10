@@ -1,13 +1,13 @@
 #menu ul
 {
 	list-style: none;
-	padding-right: 120px;
-     margin-top: : 0px;
+	padding-right: 110px;
+     margin-top: :0px;
 }
 #menu ul li
 {
-	background-color: navy;
-	border:2px solid yellow;
+	background-color: #00B29A;
+	border:2px solid #F4792B;
 	width: 120px;
 	height: 40px;
 	text-align: center;
@@ -30,8 +30,8 @@
 }
 #menu ul li a:hover
 {
-	background-color: yellow;
-	border-radius: 20px;
+	background-color: #EF4C45;
+	border-radius: 30px;
 }
 *
 {   
@@ -42,10 +42,10 @@
 }
 #menu ul ul
 {
-	position: absolute;
 	display: none;
 	margin-left: : 120px;
 	margin-top: 0px;
+	position: absolute;
 
 }
 #menu ul li:hover > ul
@@ -64,17 +64,18 @@ h1
 	border-width:10px;
 	width: 1200px;
 	height: 100px;
-    background-color: 	black;
+    background-color: 	#eeeeeeee;
 	column-span: 10px;
 	column-gap: 1000px;
-	border: 10px dotted yellow;
+	border: 10px dotted #00B29A;
      font-weight: bolder;
-	text-shadow: 6px 0px 4px white;
+	text-shadow: 4px 0px 4px #00B29A;
 	border-radius: 100px;
-    color: red;
+    color: #FF1E1E;
 	font-size: 100px;
 	text-align: center;
 	border-top-style: dashed;
+	padding-left: 145px;
 
 }
 #menu ul ul ul ul
@@ -89,7 +90,7 @@ h1
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: yellow;
+  background-color: #00B29A;
 }
 
 /* Style the links inside the navigation bar */

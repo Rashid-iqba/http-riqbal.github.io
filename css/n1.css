@@ -2,19 +2,20 @@
 {
 	list-style: none;
 	padding-right: 110px;
-     margin-top: :0px;
+     margin-top: :10px;
+     padding-left:120px;
 }
 #menu ul li
 {
 	background-color: #00B29A;
 	border:2px solid #F4792B;
 	width: 120px;
-	height: 40px;
+	height: 50px;
 	text-align: center;
-	line-height: 40px;
+	line-height: 50px;
 	float: left;
 	position: relative;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin-top: 0px;
 
 	color: navy;
@@ -31,11 +32,11 @@
 #menu ul li a:hover
 {
 	background-color: #EF4C45;
-	border-radius: 30px;
+	border-radius: 40px;
 }
 *
 {   
-	padding-left: 100px;
+	padding-left:0px;
 	margin:0px;
 	padding: 0px; 
 
@@ -139,4 +140,8 @@ h1
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+#menu ul ul li
+{
+	background-color:#222222;
 }

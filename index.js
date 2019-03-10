@@ -1,1 +1,2 @@
-alert("heloo");
+
+document.write("hello");

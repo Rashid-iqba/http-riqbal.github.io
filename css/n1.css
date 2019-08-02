@@ -1,9 +1,12 @@
+
+  
 #menu ul
 {
 	list-style: none;
 	padding-right: 110px;
      margin-top: :10px;
      padding-left:120px;
+
 }
 #menu ul li
 {
@@ -32,7 +35,7 @@
 #menu ul li a:hover
 {
 	background-color: #EF4C45;
-	border-radius: 40px;
+	border-radius: 60px;
 }
 *
 {   
@@ -46,7 +49,8 @@
 	display: none;
 	margin-left: : 120px;
 	margin-top: 0px;
-	position: absolute;
+	position: auto;
+
 
 }
 #menu ul li:hover > ul
@@ -65,10 +69,10 @@ h1
 	border-width:10px;
 	width: 1200px;
 	height: 100px;
-    background-color: 	#eeeeeeee;
+    background-color: #00B29A ;
 	column-span: 10px;
 	column-gap: 1000px;
-	border: 10px dotted #00B29A;
+	border: 10px dotted #F4792B;
      font-weight: bolder;
 	text-shadow: 8px 0px 8px #222222;
 	border-radius: 100px;
@@ -77,16 +81,15 @@ h1
 	text-align: center;
 	border-top-style: dashed;
 	padding-left: 145px;
+	margin: 0px;
+	background-image: url("book.gif");
 
 }
 #menu ul ul ul ul
 {
 	margin-left:120px; 
 }
-*
-{
-	margin: 0px;
-}
+
 
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -145,3 +148,24 @@ h1
 {
 	background-color:#222222;
 }
+.button1
+{
+	margin-left: 800px;
+	margin-top: 12px;
+	padding: 2px 5px;
+	shape-margin: 2px;
+  background-color:navy;
+  color: white;
+      text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.img1
+{
+    position: center;
+	height: 100%;
+	width: 100%;  
+}
+
+

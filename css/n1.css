@@ -154,11 +154,12 @@ h1
 	margin-top: 12px;
 	padding: 2px 5px;
 	shape-margin: 2px;
-  background-color:navy;
+  background-color: #FF1E1E;
   color: white;
       text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border: black;
 
 }
 .img1

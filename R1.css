@@ -1,8 +1,17 @@
-h1
+.ho
 {
+		border-width:10px;
+    background-color: #10473d ;
+	text-shadow: 8px 0px 8px #222222;
+	border-radius: 120px;
+    color: #1fd716;
+	font-size: 40px;
 	text-align: center;
-	color: blue;
+	text-decoration: none;
 }
+
+	
+
 form
 {
 	text-align: center;
@@ -10,6 +19,26 @@ form
 p
 {
 	text-align: center;
-	background-color: black;
-	color: red;
+	background-color: #10473d;
+	color: #1fd716;
+
+
+}
+
+.b2
+{
+	color: #1fd716;
+	background-color: #10473d;
+	border-radius: 20px;
+	border-color: #090205;
+	height: 30px;
+	width: 90px;
+}
+#bu1
+{
+	margin-right: 7px;
+}
+#bu2
+{
+	margin-left: 7px;
 }

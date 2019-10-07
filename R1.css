@@ -1,3 +1,10 @@
+body
+{
+	background-image: url(city.jpg);
+	position: center;
+	height: 100%;
+	width: 100%;
+}
 .ho
 {
 		border-width:10px;
@@ -19,6 +26,7 @@
 form
 {
 	text-align: center;
+	color: #fff223;
 }
 p
 {

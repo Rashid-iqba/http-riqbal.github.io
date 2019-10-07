@@ -8,29 +8,28 @@
 
  <h1 class="ho"><a class="ho" href="index.html">HOME</a></h1>
 
-		<h2 class="ho">LOGIN</h2>
-<p>
-	Please Enter your information!
-</p>
+		<h2 id="hh" class="ho">LOGIN</h2>
+<p>Please Enter your information!</p>
 
-		<form>
-			NAME: <input type="text=" name="name"><br>
+		<form method="GET">
+			FirstName: <input  type="text" name="firstname"><br>
+			LastName: <input  type="text" name="lastname"><br>
 		   Email:<input type="Email" name="Email"><br>
 		Password:<input type="Password" name="password" min="
 		8"><br>
 		Birthday:<input type="date" name="birthday"><br>
 		Gender:
-		<input type="radio" name="gender">Male
-		<input type="radio" name="gender">Female
-		<input type="radio" name="gender">Others<br>
+		<input type="radio" value="Male" name="gender">Male
+		<input type="radio" value="Female" name="gender">Female
+		<input type="radio" value="Others" name="gender">Others<br>
 		Qualification:
 		<select>
-			<option name="qualificaton" value="10th pass">10th pass</option>
+			<option name="qualificaton" type="text" value="10th pass">10th pass</option>
 			
-			<option name="qualificaton" value="+2">+2</option>
-			<option name="qualificaton" value="Under gradute">Under gradute</option>
-			<option name="qualificaton" value="Gradute">Gradute</option>
-			<option name="qualificaton" value="Masters">Masters</option><br>	
+			<option name="qualificaton" type="text" value="+2">+2</option>
+			<option name="qualificaton" type="text" value="Under gradute">Under gradute</option>
+			<option name="qualificaton" type="text" value="Gradute">Gradute</option>
+			<option name="qualificaton" type="text" value="Masters">Masters</option><br>	
 		</select><br>
 		Contact No:<input type="tel" name="contact">
 		<hr>

@@ -10,8 +10,8 @@
 }
 #menu ul li
 {
-	background-color: #00B29A;
-	border:2px solid #cf1776;
+	background-color: #120029;
+	border:2px solid #5a05ce;
 	width: 120px;
 	height: 50px;
 	text-align: center;
@@ -74,7 +74,7 @@
 .topnav 
 {
   overflow: hidden;
-  background-color: #00B29A;
+  background-color: #185982;
 }
 
 /* Style the links inside the navigation bar */
@@ -144,7 +144,7 @@
 	margin-top: 12px;
 	padding: 2px 5px;
 	shape-margin: 2px;
-  background-color: #FF1E1E;
+  background-color: #120029;
   color: white;
       text-decoration: none;
   display: inline-block;
@@ -160,22 +160,17 @@
 }
 h1
 {
-	text-decoration: none;
-	border-width:10px;
-	width: 1200px;
-	height: 100px;
-    background-color: #00B29A ;
-	column-span: 10px;
-	column-gap: 1000px;
-	border: 10px dotted #cf1776;
-     font-weight: bolder;
-	text-shadow: 8px 0px 8px #222222;
-	border-radius: 100px;
-    color: #FF1E1E;
-	font-size: 100px;
+	
+	
+	border-width:7px;
+    background-color: #185982 ;
+	border: 10px double #120029;
+	text-shadow: 15px 0px 15px #010109;
+	border-radius: 150px;
+    color: #ffffff;
+	font-size: 70px;
 	text-align: center;
-	border-top-style: dashed;
-	padding-left: 145px;
-	margin: 0px;
+	margin:0px;
+	display: block;
 
 }

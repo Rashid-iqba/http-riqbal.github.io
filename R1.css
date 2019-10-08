@@ -21,18 +21,19 @@ body
 	font-size: 25px;
 }
 
-	
-
-form
+.form
 {
 	text-align: center;
 	color: #fff223;
 }
-p
+.p1
 {
 	text-align: center;
 	background-color: #10473d;
 	color: #1fd716;
+	border: 5px;
+	border-radius: 9px;
+	
 
 
 }

@@ -6,8 +6,34 @@
 </head>
 <body>
 	<h1 class="ho"><a class="ho" href="index.html">HOME</a></h1>
-	<h2 class="ho">LETEST</h2>
-	<p class="p1">HI DEAR LESTEST INFORMATION IS COMMING SOON</p>
+	<h2 class="ho">ABOUT</h2>
+	
+
+	<img  class="mySlides" src="city.jpg">
+<img  class="mySlides" src="horse.jpg">
+<img  class="mySlides" src="instagram.png">
+<img  class="mySlides" src="wix.jpg">
+<img  class="mySlides" src="city.jpg">
+<img  class="mySlides" src="horse.jpg">
+<img  class="mySlides" src="instagram.png">
+<img  class="mySlides" src="wix.jpg">
+
+<script type="text/javascript">
+	var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+</script>
 
 </body>
 </html>

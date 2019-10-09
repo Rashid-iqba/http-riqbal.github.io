@@ -108,9 +108,20 @@
 {
  
  display: block;
- margin-top: 75px;
+ margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   height: 440px;
- width: 560px;
+ width: 600px;
+ border:20px;
+ border-color: black;
+}
+.p2
+{	margin-right: 400px;
+	margin-left: 400px;
+	 display: block;
+}
+#kol
+{
+	margin-top: 45px;
 }

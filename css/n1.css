@@ -156,15 +156,17 @@
 {
     position: center;
 	height: 100%;
-	width: 100%;  
+	width: 100%; 
+	border: 5px dashed black;
+
 }
 h1
 {
 	
 	
-	border-width:7px;
+	border-width:15px;
     background-color: #185982 ;
-	border: 10px double #120029;
+	border: 25px double #120029;
 	text-shadow: 15px 0px 15px #010109;
 	border-radius: 150px;
     color: #ffffff;

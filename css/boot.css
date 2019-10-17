@@ -1,0 +1,24 @@
+.abox
+{
+   border: 3px solid red;
+}
+.arow
+{
+   border: 3px solid pink;
+}
+.adiv
+{
+	border: 1px dotted blue;
+}
+.bdiv
+{
+	border: 1px dotted yellow;
+}
+.cdiv
+{
+	border: 1px dotted black;
+}
+.ddiv
+{
+	border: 1px dotted navy;
+}
